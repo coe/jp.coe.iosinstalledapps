@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: iosinstalledapps
+author: 
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: iosinstalledapps
+moduleid: jp.coe.iosinstalledapps
+guid: 1a552924-76f7-4c5a-973b-2dd0ad2465b3
+platform: iphone
+minsdk: 3.5.1.GA
