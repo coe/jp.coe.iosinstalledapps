@@ -28,9 +28,9 @@
 		24DE9E1211C5FE74003F90F6 /* JpCoeIosinstalledappsModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpCoeIosinstalledappsModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* JpCoeIosinstalledapps_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JpCoeIosinstalledapps_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		CE0330291AF3526900E8ED9A /* LLInstalledApps.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0330261AF3526900E8ED9A /* LLInstalledApps.h */; };
-		CE03302A1AF3526900E8ED9A /* LLInstalledApps.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0330271AF3526900E8ED9A /* LLInstalledApps.m */; };
-		CE03302B1AF3526900E8ED9A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CE0330281AF3526900E8ED9A /* README.md */; };
+		CE6764761AF47DE5006C2535 /* LLInstalledApps.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6764721AF47DE5006C2535 /* LLInstalledApps.m */; };
+		CE6764771AF47DE5006C2535 /* LLInstalledApps.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6764741AF47DE5006C2535 /* LLInstalledApps.h */; };
+		CE6764781AF47DE5006C2535 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CE6764751AF47DE5006C2535 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,10 @@
 		24DE9E1011C5FE74003F90F6 /* JpCoeIosinstalledappsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpCoeIosinstalledappsModuleAssets.m; path = Classes/JpCoeIosinstalledappsModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* JpCoeIosinstalledapps_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpCoeIosinstalledapps_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CE0330251AF3526900E8ED9A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../../../ios/iOSInstalledApps/LICENSE.txt; sourceTree = "<group>"; };
-		CE0330261AF3526900E8ED9A /* LLInstalledApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLInstalledApps.h; path = ../../../ios/iOSInstalledApps/LLInstalledApps.h; sourceTree = "<group>"; };
-		CE0330271AF3526900E8ED9A /* LLInstalledApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLInstalledApps.m; path = ../../../ios/iOSInstalledApps/LLInstalledApps.m; sourceTree = "<group>"; };
-		CE0330281AF3526900E8ED9A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../ios/iOSInstalledApps/README.md; sourceTree = "<group>"; };
+		CE6764721AF47DE5006C2535 /* LLInstalledApps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLInstalledApps.m; sourceTree = "<group>"; };
+		CE6764731AF47DE5006C2535 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		CE6764741AF47DE5006C2535 /* LLInstalledApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLInstalledApps.h; sourceTree = "<group>"; };
+		CE6764751AF47DE5006C2535 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libJpCoeIosinstalledapps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJpCoeIosinstalledapps.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,10 +121,10 @@
 		CE0330241AF3525C00E8ED9A /* LL */ = {
 			isa = PBXGroup;
 			children = (
-				CE0330251AF3526900E8ED9A /* LICENSE.txt */,
-				CE0330261AF3526900E8ED9A /* LLInstalledApps.h */,
-				CE0330271AF3526900E8ED9A /* LLInstalledApps.m */,
-				CE0330281AF3526900E8ED9A /* README.md */,
+				CE6764721AF47DE5006C2535 /* LLInstalledApps.m */,
+				CE6764731AF47DE5006C2535 /* LICENSE.txt */,
+				CE6764741AF47DE5006C2535 /* LLInstalledApps.h */,
+				CE6764751AF47DE5006C2535 /* README.md */,
 			);
 			name = LL;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 				AA747D9F0F9514B9006C5449 /* JpCoeIosinstalledapps_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* JpCoeIosinstalledappsModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* JpCoeIosinstalledappsModuleAssets.h in Headers */,
-				CE0330291AF3526900E8ED9A /* LLInstalledApps.h in Headers */,
+				CE6764771AF47DE5006C2535 /* LLInstalledApps.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE03302A1AF3526900E8ED9A /* LLInstalledApps.m in Sources */,
+				CE6764761AF47DE5006C2535 /* LLInstalledApps.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* JpCoeIosinstalledappsModule.m in Sources */,
-				CE03302B1AF3526900E8ED9A /* README.md in Sources */,
+				CE6764781AF47DE5006C2535 /* README.md in Sources */,
 				24DE9E1211C5FE74003F90F6 /* JpCoeIosinstalledappsModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
