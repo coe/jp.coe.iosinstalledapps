@@ -91,13 +91,13 @@
 -(id)example:(id)args
 {
 	// example method
-	return @"hello world";
+	return @"hello jana";
 }
 
 -(id)exampleProp
 {
 	// example property getter
-	return @"hello world";
+	return @"hello manu";
 }
 
 -(void)setExampleProp:(id)value
@@ -105,7 +105,8 @@
 	// example property setter
 }
 
--(NSArray*)runningApps{
+-(NSArray*)runningApps:(id)args
+{
     return [LLInstalledApps runningApps];
 }
 

@@ -11,6 +11,6 @@
 {
 }
 
--(NSArray*)runningApps;
+-(NSArray*)runningApps:(id)value;
 
 @end

@@ -14,7 +14,7 @@ win.open();
 
 // TODO: write your module tests here
 var iosinstalledapps = require('jp.coe.iosinstalledapps');
-Ti.API.info("module is => " + iosinstalledapps);
+Ti.API.info("module is janajana=> " + iosinstalledapps);
 
 label.text = iosinstalledapps.example();
 
